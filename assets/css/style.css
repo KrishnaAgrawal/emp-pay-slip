@@ -1,0 +1,31 @@
+/*****************
+General
+*****************/
+.cursor-pointer{
+    cursor: pointer;
+}
+
+
+/*****************
+Navbar
+*****************/
+/*Navigation*/
+.navbar {
+    background-color: rgba(0,0,0,1);
+    text-transform: uppercase;
+}
+.navbar .navbar-brand i{
+    font-size: 36px;
+}
+.scrolling-navbar {
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+.navbar li a{
+    color: #fff !important;
+    text-decoration: none;
+}  
+
+.navbar li a:hover, .navbar li a:focus {
+    cursor: pointer;
+    background-position: -100% 100%;
+}
